@@ -17,6 +17,8 @@ body{
     max-width: 1322px;
     padding: 0 20px;
 }
+/* NAV 
+////////////////////////////////////////////////////////////*/
 .nav-row{
     margin-top: 68px;
     display: flex;
@@ -34,6 +36,8 @@ body{
     display: flex;
     column-gap: 3px;
 }
+/* HEADER
+////////////////////////////////////////////////////////////*/
 .header-text {
     margin-top: 200px;
     text-align: center;
@@ -89,6 +93,8 @@ body{
 .heart{
     margin-bottom: 35px;
 }
+/* PROJECTS 
+////////////////////////////////////////////////////////////*/
 .projects-all{
     margin-top: 180px;
     text-align: center;
