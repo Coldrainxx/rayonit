@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/1bd3de6fcdd9ba7750e5a353dc6ef6e3?family=SF+Pro+Text);
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'SF Pro Text', sans-serif;
+*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.yellow{
+    color: #F7B006;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1322px;
+    padding: 0 20px;
+}
+.nav-row{
+    margin-top: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+.nav-items {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    column-gap: 60px;
+}
+.lang{
+    display: flex;
+    column-gap: 3px;
+}
+.header-text {
+    margin-top: 200px;
+    text-align: center;
+}
+.header-title {
+    font-family:'SF Pro Text', sans-serif; 
+    font-weight: 700;
+    font-size: 72px;
+}
+.header-quote {
+    max-width: 780px;
+    margin: 22px auto 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #858585;
+}
+.header-button {
+    margin-top: 58px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 30px;
+    background-color: #F7B006;
+}
+.about-us {
+    max-width: 1120px;
+    margin: 252px auto 0;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-item {
+    text-align: center;
+    max-width: 28%;
+}
+.about-img{
+    margin-bottom: 19px;
+}
+.about-title {
+    font-weight: 700;
+    font-size: 39px;
+    color: #F7B006;
+    margin-bottom: 39px;
+}
+.about-text {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    color: #747474;
+}
+.heart{
+    margin-bottom: 35px;
+}
+.projects-all{
+    margin-top: 180px;
+    text-align: center;
+}
+.projects-title{
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #4E4E4E;
+}
+.project-examp {
+    max-width: 620px;
+    margin: 78px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 250px;
+    row-gap: 104px;
+}
+.project-item {
+    display: flex;
+    flex-direction: column;
+    max-height: 218px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.project-name{
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 45px;
+}
+.total-projects {
+    margin-top: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 26px;
+}
+.text {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+.number {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    color: #F7B006;
+}
+.customers-number {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 26px;
+}
