@@ -8,14 +8,21 @@ font-family: 'SF Pro Text', sans-serif;
 */
 body{
     font-family: 'Roboto', sans-serif;
-}
-.yellow{
-    color: #F7B006;
+    background-color: #FFFCF4;
 }
 .container {
     margin: 0 auto;
     max-width: 1322px;
     padding: 0 20px;
+}
+.yellow{
+    color: #F7B006;
+}
+.section-title{
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #4E4E4E;
 }
 /* NAV 
 ////////////////////////////////////////////////////////////*/
@@ -99,12 +106,7 @@ body{
     margin-top: 180px;
     text-align: center;
 }
-.projects-title{
-    font-family: 'SF Pro Text', sans-serif;
-    font-size: 72px;
-    font-weight: 700;
-    color: #4E4E4E;
-}
+
 .project-examp {
     max-width: 620px;
     margin: 78px auto 0;
@@ -151,4 +153,127 @@ body{
     justify-content: center;
     align-items: center;
     column-gap: 26px;
+}
+/*TEAM
+////////////////////////////////////////////////////////////*/
+.our-team {
+    margin-top: 140px;
+    text-align: center;
+}
+.team-title .section-title {
+    margin-bottom: 10px;
+}
+.team-quote {
+    font-family: 'SF Pro Text', sans-serif;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 500;
+}
+.team-description {
+    margin-top: 184px;
+}
+.team-description-title {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.team-description-text {
+    max-width: 868px;
+    margin: 40px auto 0;
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #222222;
+}
+.transition-text {
+    margin-top: 178px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'SF Pro Text', sans-serif;
+    color:#4E4E4E;
+}
+.team-line-up {
+    margin-top: 300px;
+}
+.team-member {
+    margin: 0 auto;
+    max-width: 1136px;;
+    display: flex;
+    column-gap: 50px;
+}
+.team-member:nth-child(2){
+    justify-content: flex-end;
+}
+.team-member + .team-member{
+    margin-top: 34px;
+}
+.team-member-image{
+    border: 0.5px #000 solid ;
+    border-radius: 50%;
+}
+.team-member-name {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.team-member-description {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight:500;
+    max-width: 733px;
+    text-align:justify;
+}
+.team-hiring {
+    background-color: rgba(255, 0, 0,25%);
+    max-width: 870px;
+    margin: 187px auto 0;
+    padding: 52px 0 96px 0;
+    border-radius: 25px;
+}
+.hiring-upper {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.hiring-title {
+    color: #D10000;
+}
+.hiring-text {
+    margin: 15px auto 0;
+    color: #4B4B4B;
+    max-width: 630px;
+    text-align: justify;
+    letter-spacing: -1px;
+}
+.hiring-lower {
+    margin-top: 76px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    column-gap: 99px;
+    align-items: center;
+}
+.hiring-profs {
+    font-family: 'SF Pro Text', sans-serif;
+    
+}
+.hiring-head {
+    margin-bottom: 7px;
+    font-size: 40px;
+    color: #D10000;
+}
+.hiring-vacancy {
+    font-size: 36px;
+    color: #4B4B4B;
+}
+.hiring-vacancy + .hiring-vacancy{
+    margin-top: 9px;
+}
+.hiring-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF4343;
+    padding: 14px 28px;
+    background-color: #FFF;
 }
