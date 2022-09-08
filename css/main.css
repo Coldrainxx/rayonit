@@ -7,6 +7,8 @@ font-family: 'Roboto', sans-serif;
 font-family: 'SF Pro Text', sans-serif;
 */
 body{
+    width: 100%;
+    height: 1vw;
     font-family: 'Roboto', sans-serif;
     background-color: #FFFCF4;
 }
@@ -38,6 +40,7 @@ body{
     text-transform: uppercase;
     display: flex;
     column-gap: 60px;
+    align-items: flex-end;
 }
 .nav-link{
     color: #1E1E1E;
@@ -46,6 +49,14 @@ body{
     display: flex;
     column-gap: 3px;
     color: #1E1E1E;
+    align-items: center;
+}
+.lang-select{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 1px 1px;
+    border-radius: 1px;
 }
 /* HEADER
 ////////////////////////////////////////////////////////////*/
@@ -86,6 +97,7 @@ body{
 .about-item {
     text-align: center;
     max-width: 28%;
+    min-width: 305px;
 }
 .about-img{
     margin-bottom: 19px;
@@ -100,6 +112,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     color: #747474;
+    letter-spacing: -1px;
 }
 .heart{
     margin-bottom: 35px;
@@ -201,8 +214,6 @@ body{
 .team-member {
     margin: 0 auto;
     max-width: 1136px;;
-    display: flex;
-    column-gap: 50px;
 }
 .team-member:nth-child(2){
     justify-content: flex-end;
@@ -211,13 +222,17 @@ body{
     margin-top: 34px;
 }
 .team-member-image{
-    border: 0.5px #000 solid ;
+    border: 0.4px #000 solid ;
     border-radius: 50%;
 }
 .team-member-name {
     font-size: 48px;
     font-weight: 700;
-
+}
+.team-member-text{
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
 }
 .team-member-description {
     margin-top: 10px;
@@ -280,6 +295,8 @@ body{
     padding: 14px 28px;
     background-color: #FFF;
 }
+/*CONTACT US
+////////////////////////////////////////////////////////////*/
 .contact {
     text-align: center;
 }
@@ -294,7 +311,9 @@ body{
     background-color: #FFF;
     border: 0.75px #BDBDBD solid;
     border-radius: 13px;
-    padding: 20px 65px 20px 18px;
+    padding: 20px 0px 20px 18px;
+    width: 32%;
+    min-width: 250px;
     font-size: 25px;
 }
 .name + .name{
@@ -306,8 +325,11 @@ body{
     background-color: #FFF;
     border: 0.75px #BDBDBD solid;
     border-radius: 13px;
+    padding: 15px 0 0 15px;
     font-size: 25px;
-    padding: 20px 500px 216px 18px;
+    min-height: 230px;
+    max-width: 66%;
+    min-width: 250px;
 }
 .submit-button{
     margin-top: 50px;
@@ -317,6 +339,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
 }
+/*FOOTER
+////////////////////////////////////////////////////////////*/
 .footer{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;

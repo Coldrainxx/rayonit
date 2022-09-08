@@ -1,0 +1,32 @@
+@media screen and (max-width: 830px){
+    .nav-items{
+        column-gap: 30px;
+    }
+    .section-title{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 755px){
+    .team-member-text{
+    flex-direction: column; 
+    row-gap: 20px;
+    } 
+    .reverse-column{
+    flex-direction: column-reverse;
+   
+    }
+    .team-member-name{
+        margin-bottom: 20px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .space{
+        flex-direction: column;
+        row-gap: 15px;
+       align-items: center;
+    }
+    .socials{
+        margin-top: 15px;
+    }
+}

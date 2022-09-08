@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rayonit</title>
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
     <nav class="nav">
@@ -18,7 +19,12 @@
                     <a href="#!" class="nav-link">Our Team</a>
                     <a href="#!" class="nav-link">Contact</a>
                     <div class="lang">
-                        <p class="lang-select">En</p>
+                        <select class="lang-select">
+                                <option value="1">En</option>
+                                <option value="2">Ru</option>
+                                <option value="3">Aze</option>
+                                <option value="4">Fr</option>
+                        </select>
                         <img src="./images/usa-flag.jpg" alt="flag">
                     </div>
                 </div>
@@ -104,23 +110,26 @@
                 </div>
                 <div class="team-line-up">
                     <div class="team-member">
-                        <img src="./images/webdesigner.jpg" alt="designer" class="team-member-image">
+                        <h3 class="team-member-name yellow">DESIGNER</h3>
                         <div class="team-member-text">
-                            <h3 class="team-member-name yellow">DESIGNER</h3>
+                            
+                            <img src="./images/webdesigner.jpg" alt="designer" class="team-member-image">
                             <p class="team-member-description">The Designer is the translator of aesthetics and functional needs of a specific  sector such as  road systems, IT or management, in simple, intuitive and  user  interface  (UI,  UX,  GRAPHIC DESIGN). This process uses processes and innovative projecting technique (design sprint).</p>
                         </div>
                     </div>
                     <div class="team-member">
-                        <div class="team-member-text">
-                            <h3 class="team-member-name yellow">DEVELOPER</h3>
-                            <p class="team-member-description">The   Developer   often  faces  problems  or  projects  that  require specific    solutions.  By   using  technologies   as   JAVA,  SCALA, FUNCTIONAL   PROGRAMMING  , etc,  the   result   is   a   complex project within the team  offering new  experiences  and increasing Industry’s opportunities for growth.</p>
+                        <h3 class="team-member-name yellow">DEVELOPER</h3>
+                        <div class="team-member-text reverse-column">
+                            <p class="team-member-description">The   Developer   often  faces  problems  or  projects  that  require specific    solutions.  By   using  technologies   as   JAVA,  SCALA, FUNCTIONAL   PROGRAMMING  , etc,  the   result   is   a   complex project within the team  offering new  experiences  and increasing Industry’s opportunities for growth.</p> 
+                            <img src="./images/DEVELOPER.jpg" alt="developer" class="team-member-image">
                         </div>
-                        <img src="./images/DEVELOPER.jpg" alt="developer" class="team-member-image">
+                       
                     </div>
                     <div class="team-member">
-                        <img src="./images/analyst .jpg" alt="designer" class="team-member-image">
+                       
+                        <h3 class="team-member-name yellow">ANALYST</h3>
                         <div class="team-member-text">
-                            <h3 class="team-member-name yellow">ANALYST</h3>
+                            <img src="./images/analyst .jpg" alt="designer" class="team-member-image"> 
                             <p class="team-member-description">The    Functional    Analyst    is  responsible    for    the    success, opportunity,     development    and   creation   and    the   external collaboration of a project. While working   in the management of complex information systems, RAYONIT looks beyond, inspiring new ideas and reaching new markets.</p>
                         </div>
                     </div>      
@@ -149,7 +158,7 @@
             <div class="contact-form">
                 <input type="text" class="name" placeholder="Name">
                 <input type="email" class="name" placeholder="E-mail">
-                <input type="text" class="message" placeholder="Message">
+                <textarea class="message" placeholder="Message"></textarea>
             </div>
             <button href="#!" class="submit-button" type="submit">Submit</button>
         </div>
