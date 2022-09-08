@@ -93,7 +93,6 @@ body{
 .about-title {
     font-weight: 700;
     font-size: 39px;
-    color: #F7B006;
     margin-bottom: 39px;
 }
 .about-text {
@@ -150,7 +149,6 @@ body{
     font-family: 'SF Pro Text', sans-serif;
     font-size: 72px;
     font-weight: 500;
-    color: #F7B006;
 }
 .customers-number {
     margin-top: 10px;
@@ -318,4 +316,38 @@ body{
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
+}
+.footer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.address {
+    margin-top: 67px;
+}
+.footer-contacts {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 60px    ;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.socials{
+    margin-top: 38px;
+}
+.social + .social{
+    margin-left: 20px;
+}
+.policy{
+    text-align: center;
+}
+.policy p{
+    color:#4E4E4E;
+    font-size: 10px;
+    display: inline-block;
+}
+.policy p + .policy p{
+    margin-left: 5px;
 }
