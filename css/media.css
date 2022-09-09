@@ -7,6 +7,15 @@
     }
 }
 @media screen and (max-width: 755px){
+    .nav-row{
+        margin-top: 40px;}
+    .header-nav{
+        display: none;
+    }
+    .burger-button{
+        display: block;
+        cursor: pointer;
+    }
     .team-member-text{
     flex-direction: column; 
     row-gap: 20px;
@@ -28,5 +37,51 @@
     }
     .socials{
         margin-top: 15px;
+    }
+    .team-hiring{
+        padding-bottom: 70px;
+        max-width: 520px;
+        min-width: 330px;
+    }
+    .hiring-lower{
+        display: block;
+        margin-top: 55px;
+    }
+    .hiring-upper{
+        font-size: 20px;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .hiring-head {
+        margin-bottom: 7px;
+        font-size: 32px;
+        color: #D10000;
+    }
+    .hiring-vacancy {
+        font-size: 28px;
+    }
+    .hiring-button{
+        margin-top: 22px;
+    }
+}
+@media screen and (max-width: 580px){
+    .header-title{
+        font-size: 60px;
+    }
+    .team-member-description{
+        font-size: 20px;
+    }
+    .team-description-text{
+        font-size: 26px;
+    }
+    .name + .name{
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    .text {
+        font-size: 22px;
+    }
+    .number {
+        font-size: 50px;
     }
 }
